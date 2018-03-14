@@ -15,6 +15,8 @@ import { rootReducer, IAppState, INITIAL_STATE } from './reducer/root.store';
 import { TodoCheckActions } from './reducer/root.actions';
 import { TodoItemComponent } from './todo-item/todo-item.component';
 
+import { DragDirective } from './directive/drag/drag.directive';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,8 @@ import { TodoItemComponent } from './todo-item/todo-item.component';
     DashboardComponent,
     NavComponent,
     TodoComponent,
-    TodoItemComponent
+    TodoItemComponent,
+    DragDirective
   ],
   imports: [
     BrowserModule,
