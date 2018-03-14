@@ -1,0 +1,43 @@
+
+.list-group-item {
+    border-radius: 0;
+    line-height: 35px;
+    padding-left: 20px;
+    color: rgb(191, 203, 217);
+    background-color: rgb(48, 65, 86);
+    border: none;
+    cursor: pointer;
+}
+
+a.list-group-item:hover,
+button.list-group-item:hover {
+    background: rgb(45, 58, 75);
+    color: rgb(255, 255, 255);
+}
+
+a.list-group-item:focus,
+button.list-group-item:focus,
+a.list-group-item:active,
+button.list-group-item:active {
+    background: inherit;
+    color: inherit;
+}
+
+.list-group-item.active {
+    color: rgb(64, 158, 255);
+}
+
+.list-group-item .icon {
+    position: absolute;
+    right: 20px;
+    top: 35%;
+    transition: 1s;
+}
+
+.list-group-item .icon.expand {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

@@ -1,0 +1,19 @@
+.admin-container {
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    position: fixed;
+}
+
+.dashboard {
+    background: #2d3a4b;
+    color: #fff;
+    height: 100%;
+    padding: 0;
+}
+
+.content {
+    background: #fff;
+    height: 100%;
+    padding-top: 15px;
+}

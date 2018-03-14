@@ -1,0 +1,16 @@
+section.active label, .todo-panel section.active i{
+    color: #d9d9d9;
+}
+
+section.active label {
+    text-decoration: line-through;
+}
+
+section:hover .iconfont.del{
+    display: block;    
+}
+
+.iconfont.del {
+    display: none;
+}
+

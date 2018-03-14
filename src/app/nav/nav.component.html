@@ -1,0 +1,15 @@
+<section id="MainMenu">
+    <div class="list-group">
+      <a class="list-group-item active" data-parent="#MainMenu">Dashboard</a>
+      <a class="list-group-item " data-parent="#MainMenu">Documentation</a>
+      <a href="#demo3" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu" (click)="selectMenu()">Components
+        <i class="glyphicon icon glyphicon-menu-right" [ngClass]="{ 'expand': expand }" ></i>
+      </a>
+      <div class="collapse" id="demo3">
+        <a class="list-group-item">Tinymce</a>
+        <a class="list-group-item">Markdown</a>
+        <a class="list-group-item">JSON Editor</a>
+      </div>
+    </div>
+  </section>
+  
