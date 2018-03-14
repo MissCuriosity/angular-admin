@@ -71,3 +71,13 @@ html {
 .title {
     margin-bottom: 30px;
 }
+
+/* directive */
+/* drag */
+.drag-box {
+    border: 1px dotted #ccc;
+    width: 301px;
+    height: 47px;
+    position: absolute;
+    z-index: 9;
+}
