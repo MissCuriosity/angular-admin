@@ -1,4 +1,4 @@
-<section *ngIf="todo" [ngClass]="{ 'active': todo.checked }">
+<section *ngIf="todo" [ngClass]="{ 'active': todo.checked }" appDrag>
   <i class="iconfont" [ngClass]="{ 'icon-circle': !todo.checked, 'icon-select': todo.checked }" (click)="selectTodo(todo)"></i>
   <label>{{ todo.name }}</label>
   <i class="iconfont icon-delete fr del" (click)="removeTodo(i)"></i>

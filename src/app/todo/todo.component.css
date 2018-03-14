@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+.todo-panel .panel-body ul {
+    position: relative;
+}
+
 .todo-panel .panel-heading i.icon-select{
     color: #d9d9d9;
 }
